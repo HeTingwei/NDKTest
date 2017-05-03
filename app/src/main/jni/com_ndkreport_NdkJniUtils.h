@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_ndkreport_NdkJniUtils_getCLanguageString
   (JNIEnv *, jobject);
 
+/*
+ * Class:     com_ndkreport_NdkJniUtils
+ * Method:    setCLanguageString
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_com_ndkreport_NdkJniUtils_setCLanguageString
+  (JNIEnv *, jobject, jstring);
+
 #ifdef __cplusplus
 }
 #endif
